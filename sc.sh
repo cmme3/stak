@@ -1,7 +1,7 @@
 sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get -y install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev screen git  nano
-git clone https://github.com/cmme3/xmr-stak-cpu.git
+git clone https://github.com/loizt/xmr-stak-cpu.git
 cd xmr-stak-cpu
 cmake .
 make install
